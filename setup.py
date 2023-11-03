@@ -14,7 +14,8 @@ with open('requirements/base.txt') as req:
 
 
 setup(
-    use_scm_version=True,
+    # use_scm_version=True,
+    version="0.9.2+brettdh",
     name='drf-yasg-json-api',
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     include_package_data=True,
